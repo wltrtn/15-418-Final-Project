@@ -20,13 +20,20 @@ For my code, I plan to use OpenMP code from previous assignments as a starting p
 
 ### Goals and Deliverables
 75% Target: I plan to have both a serial and parallel version of a Sudoku solver algorithm implemented.
+
 100% Target: I plan to implement more than one solver algorithm. 
+
 125% Target: I plan to extend my implementations to work with Sudoku grids of sizes larger than 9x9.
 
 ### Schedule
 March 27 - April 2: Implement serial version of a Sudoku Solver
+
 April 3 - April 9: Start working on a parallel version of the solver
+
 April 10 - April 16: Finish implementing the parallel version.
+
 April 17 - April 23: Implement a different solver algorithm.
+
 April 24 - April 30: Start working on and complete the project report
+
 May 1 - May 4: Prepare for final presentation
