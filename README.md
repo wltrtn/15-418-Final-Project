@@ -1,4 +1,4 @@
-# 15-418-Final-Project
+# 15-418-Final-Project Proposal
 
 Walter Tan (waltert)
 
