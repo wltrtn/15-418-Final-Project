@@ -26,7 +26,7 @@ For my code, I plan to use OpenMP code from previous assignments as a starting p
 125% Target: I plan to extend my implementations to work with Sudoku grids of sizes larger than 9x9.
 
 ### Schedule
-March 27 - April 2: Implement serial version of a Sudoku Solver
+March 27 - April 2: Implement serial version of a Sudoku Solver (DONE)
 
 April 3 - April 9: Start working on a parallel version of the solver
 
@@ -38,4 +38,9 @@ April 24 - April 30: Start working on and complete the project report
 
 May 1 - May 4: Prepare for final presentation
 
-### MILESTONE
+### MILESTONE (April 11)
+So far, I have finished implemented a serial version of a Sudoku Solver. The algorithm is a brute force DFS algorithm, which attempts to find solutions by filling values for all empty squares, testing the values for legalness, and then backtracking if the value is not legal. The algorithm is correct for boards of various sizes. 9x9 boards seem to take at most 20s to solve. Larger 16x16 and 25x25 boards can take up to several minutes to solve, but this indicates good potential for parallel speedup.
+
+With respect to my goals and deliverables, I am a little behind schedule. While my algorithm works for boards of varying sizes, I have not implemented parallelism yet. I believe I will still be able to achieve this goal in time. I am not sure if I can still achieve the goal of implementing more than one solver algorithm in time, as right now I am just focusing on my parallelizing my serial algorithm. At the poster session, I plan to show various graphs detailing different speedups from running my parallel algorithm on varying number of cores. The only results I have right now are computation times for my serial algorithm. Most 9x9 boards are solved within seconds, with a worst case taking up to 15 seconds. Larger boards take anywhere from 10s of seconds to several minutes.
+
+Issues that concern me the most are finding out how to parallelize my current serial code. My algorithm implements DFS by using recursion, which I believe might be hard to parallelize. However, if I start my work early I believe I can overcome these hurdles.
