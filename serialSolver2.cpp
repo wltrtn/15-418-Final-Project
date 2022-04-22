@@ -14,7 +14,6 @@ typedef struct listNode {
     struct listNode *next;
 } item;
 
-//typedef struct list_el item;
 int l;  // length of subgrid
 int SIZE;   // length of board
 MATRIX solution;
@@ -309,8 +308,6 @@ short processPool(MATRIX matrix) {
 
         current = removeItem();
     }
-
-    /* End of parallel block */ 
 
     return found;
 }
