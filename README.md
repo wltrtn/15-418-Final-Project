@@ -28,9 +28,9 @@ For my code, I plan to use OpenMP code from previous assignments as a starting p
 ### Schedule
 March 27 - April 2: Implement serial version of a Sudoku Solver (DONE)
 
-April 3 - April 9: Start working on a parallel version of the solver
+April 3 - April 9: Start working on a parallel version of the solver (DONE)
 
-April 10 - April 16: Finish implementing the parallel version.
+April 10 - April 16: Finish implementing the parallel version. (DONE)
 
 April 17 - April 23: Implement a different solver algorithm.
 
