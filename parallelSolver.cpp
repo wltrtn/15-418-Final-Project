@@ -280,7 +280,7 @@ short processPool(MATRIX matrix) {
     int level;
     item* current;
 
-    #pragma omp parallel shared(found) private(i,j, current, level)
+    #pragma omp parallel shared(found) private(i, j, current, level)
     {  
         #pragma omp critical (pool)
         current = removeItem();
@@ -347,8 +347,9 @@ int main(int argc, char *argv[]) {
 
     MATRIX mat = initInput(argv[1]);
 
-    printf("Input board:");
-    printMatrix(&mat);
+    printf("Input board:\n");
+    //printMatrix(&mat);
+    printGrid(&mat);
 
     //printf("%d\n", omp_get_max_threads());
     int threadCount;
@@ -359,6 +360,8 @@ int main(int argc, char *argv[]) {
 
     printf("Running with %d threads\n\n", threadCount);
     omp_set_num_threads(threadCount);
+
+    //printf("%d procs available\n\n", omp_get_num_procs());
 
     startTime = CycleTimer::currentSeconds();
 
@@ -376,7 +379,7 @@ int main(int argc, char *argv[]) {
     //printMatrix(&solution);
     printGrid(&solution);
 
-    printf("Computation Time: %.6f ms\n", endTime - startTime);
+    printf("Computation Time: %.6f s\n", endTime - startTime);
     
     // deallocate queue
     item* node = head;
