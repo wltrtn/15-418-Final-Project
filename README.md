@@ -47,6 +47,6 @@ Issues that concern me the most are finding out how to parallelize my current se
 
 ### FINAl REPORT
 
-Presentation Video: https://drive.google.com/file/d/1wx8JZa-gGyuG5a8D7S2Ohr2uDS-Bjhj-/view?usp=sharing
+Presentation Video (also linked at end of final report): https://drive.google.com/file/d/1wx8JZa-gGyuG5a8D7S2Ohr2uDS-Bjhj-/view?usp=sharing
 
 Final Report pdf and docx are in the repo.
