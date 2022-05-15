@@ -45,8 +45,4 @@ With respect to my goals and deliverables, I am a little behind schedule. While 
 
 Issues that concern me the most are finding out how to parallelize my current serial code. My algorithm implements DFS by using recursion, which I believe might be hard to parallelize. However, if I start my work early I believe I can overcome these hurdles.
 
-### FINAl REPORT
 
-Presentation Video (also linked at end of final report): https://drive.google.com/file/d/1wx8JZa-gGyuG5a8D7S2Ohr2uDS-Bjhj-/view?usp=sharing
-
-Final Report pdf and docx are in the repo.
